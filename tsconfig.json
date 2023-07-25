@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
+    "target": "ES2021",
     "module": "ES2020",
     "sourceMap": true,
     "jsx": "preserve",
     "baseUrl": "./",
     "lib": [
-      "ES2018",
+      "ES2021",
       "dom"
     ],
     "allowSyntheticDefaultImports": true,
@@ -27,7 +27,7 @@
       "cypress",
       "node"
     ],
-    "allowJs": false,
+    "allowJs": true,
     "resolveJsonModule": true
   },
   "include": [
