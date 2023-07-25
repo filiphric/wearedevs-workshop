@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 
 // challenge #1: set up this test in a way that it resets the database before every test
 beforeEach( () => {

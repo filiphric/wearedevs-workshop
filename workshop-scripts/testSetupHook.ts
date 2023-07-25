@@ -4,6 +4,8 @@ import * as singleBoardTwoListsFiveCards from './fixtures/singleBoardTwoListsFiv
 import * as twoBoards from './fixtures/twoBoards.json'
 import * as empty from './fixtures/empty.json'
 import * as singleBoardTwoListsTwoCards from './fixtures/singleBoardTwoListsTwoCards.json'
+import * as singleBoardSingleListThreeCardsSingleUser from './fixtures/singleBoardSingleListThreeCardsSingleUser.json'
+import * as singleBoardSingleListThreeCardsTwoUsers from './fixtures/singleBoardSingleListThreeCardsTwoUsers.json'
 
 const beforeTestSeeds = {
   'cypress/e2e/01_creating_first_test/demo_start.cy.ts': twoBoards,
@@ -15,15 +17,20 @@ const beforeTestSeeds = {
   'cypress/e2e/03_chaining_and_retryability/challenge.cy.ts': singleBoardTwoListsFiveCards,
   'cypress/e2e/03_chaining_and_retryability/challenge_solution.cy.ts': singleBoardTwoListsFiveCards,
   'cypress/e2e/06_intercept/demo_start.cy.ts': singleBoardSingleList,
-  'cypress/e2e/06_intercept/demo_end.cy.ts': singleBoardSingleList
+  'cypress/e2e/06_intercept/demo_end.cy.ts': singleBoardSingleList,
+  'cypress/e2e/06_handling_authentication_flow/demo_start.cy.ts': singleBoardSingleListThreeCardsSingleUser,
+  'cypress/e2e/06_handling_authentication_flow/demo_end.cy.ts': singleBoardSingleListThreeCardsSingleUser,
+  'cypress/e2e/06_handling_authentication_flow/challenge_solution.cy.ts': singleBoardSingleListThreeCardsTwoUsers
+
 }
 
 const beforeEachTestSeeds = {
   'cypress/e2e/02_simple_assertions/demo_start.cy.ts': singleBoardSingleList,
   'cypress/e2e/02_simple_assertions/demo_end.cy.ts': singleBoardSingleList,
-  'cypress/e2e/11_installing_useful_plugins/demo_end.cy.ts': empty,
-  'cypress/e2e/11_installing_useful_plugins/challenge.cy.ts': singleBoardTwoListsTwoCards,
-  'cypress/e2e/11_installing_useful_plugins/challenge_solution.cy.ts': singleBoardTwoListsTwoCards,
+  'cypress/e2e/04_intercepting_network_requests/demo_start.cy.ts': singleBoardSingleList,
+  'cypress/e2e/04_intercepting_network_requests/demo_end.cy.ts': singleBoardSingleList,
+  'cypress/e2e/04_intercepting_network_requests/challenge_solution.cy.ts': singleBoardSingleList,
+  'cypress/e2e/04_intercepting_network_requests/challenge.cy.ts': singleBoardSingleList,
 
 }
 

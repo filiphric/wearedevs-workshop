@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 
 it('sends a request over API', () => {
 

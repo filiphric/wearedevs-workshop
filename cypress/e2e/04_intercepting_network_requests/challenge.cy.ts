@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 
 // challenge #1: create a card using UI and use .intercept() command
 // for watching the http request for the card creation

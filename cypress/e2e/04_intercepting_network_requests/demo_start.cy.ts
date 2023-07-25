@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 
 it.only('board has no lists', () => {
 

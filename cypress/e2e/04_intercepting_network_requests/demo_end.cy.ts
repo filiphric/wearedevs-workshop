@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 
 it('there are no boards on page', () => {
 
