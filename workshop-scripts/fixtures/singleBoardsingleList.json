@@ -1,0 +1,22 @@
+{
+  "boards": [
+    {
+      "name": "favourite numbers",
+      "user": 0,
+      "id": 1,
+      "starred": false,
+      "created": "2022-01-23"
+    }
+  ],
+  "cards": [],
+  "lists": [
+    {
+      "boardId": 1,
+      "name": "Prime numbers - ",
+      "order": 0,
+      "id": 1,
+      "created": "2022-01-26"
+    }
+  ],
+  "users": []
+}

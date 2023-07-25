@@ -2,10 +2,8 @@
   "compilerOptions": {
     "target": "ES2018",
     "module": "ES2020",
-    "strict": true,
     "sourceMap": true,
     "jsx": "preserve",
-    "allowJs": true,
     "baseUrl": "./",
     "lib": [
       "ES2018",
@@ -26,10 +24,14 @@
       ]
     },
     "types": [
+      "cypress",
       "node"
-    ]
+    ],
+    "allowJs": false,
+    "resolveJsonModule": true
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "workshop-scripts/*.ts"
   ]
 }
